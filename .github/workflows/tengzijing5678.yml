@@ -2,27 +2,18 @@ name: tengzijing5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 5/6 * * *'
+    - cron: '49 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tengzijing5678
         env:
-          fp61975: ${{ secrets.fp61975 }}
+          bmmk6097: ${{ secrets.bmmk6097 }}
         run: |
-          echo $fp61975 | jq -r .i5 | /bin/bash
-          echo $c4592 | jq -r .wig82594 | /bin/bash
-          echo $bbkfn20 | jq -r .pj4712 | /bin/bash
-          echo $pkp5527 | jq -r .d9881 | /bin/bash
-          echo $dck353 | jq -r .gt6 | /bin/bash
-          echo $wr4 | jq -r .r5132 | /bin/bash
-          echo $tj3274 | jq -r .meusl6 | /bin/bash
-          echo $bclrf71 | jq -r .ct54310 | /bin/bash
-          echo $kv09 | jq -r .pee06 | /bin/bash
-          echo $r2572 | jq -r .o48645 | /bin/bash
-          echo $uaku76611 | jq -r .zyxis85654 | /bin/bash
-          echo $ixam518 | jq -r .t9 | /bin/bash
+          echo $bmmk6097 | jq -r .el507 | /bin/bash
+          echo $tphr78880 | jq -r .ea25 | /bin/bash
+          echo $e31 | jq -r .zbul2361 | /bin/bash
 
